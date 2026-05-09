@@ -1,5 +1,6 @@
 ## ER Diagram
 
+```mermaid
 erDiagram
 
     Users {
@@ -72,3 +73,5 @@ erDiagram
     Work_Orders     ||--o{ Parts_Usage     : "uses"
     Equipment       ||--o{ Sensor_Events   : "generates"
     Users           ||--o{ Query_Logs      : "logs"
+
+```
