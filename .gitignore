@@ -427,3 +427,7 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Ignore CSVs
+data/exports/
+seed_database.log
